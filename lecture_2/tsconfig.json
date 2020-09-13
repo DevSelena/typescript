@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ES5", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019","ES2020", "DOM"],
+    // dts의 목록들이 불러와짐
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "experimentalDecorators": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+  },
+  "exclude": ["*.js", "./types"]
+}
